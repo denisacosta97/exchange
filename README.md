@@ -2,6 +2,8 @@
 
 Esta es una API REST desarrollada para convertir divisas. El servicio está implementado con Java 11 y Spring Boot, y puede ser desplegado utilizando Docker Compose. Utiliza como fuente de información la pagina [Exchange Rate](https://exchangerate.host/).
 
+**Postman**: [Exchange_postman.json](Exchange_postman.json)
+
 ## Requisitos
 
 - Docker
