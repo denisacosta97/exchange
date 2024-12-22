@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8080:8080"
+    environment:
+      - URL=https://api.exchangerate.host
+      - TOKEN=d3c4bf89f935d99fcd636e8b1d801de7
