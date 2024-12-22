@@ -21,7 +21,7 @@ public class RetrofitClient {
             return response.body();
         } catch (Exception e) {
             log.error("Error inesperado", e);
-            throw new RetrofitException(0, "Retrofit service exception", e);
+            throw new RetrofitException("Retrofit service exception", e);
         }
     }
     
